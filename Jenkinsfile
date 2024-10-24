@@ -1,6 +1,6 @@
 node('AppServer') {
     stage('Pull from GitHub Repo') {
-        checkout SCM
+        checkout scm
     }
 
     stage('Build and Tag Image') {
