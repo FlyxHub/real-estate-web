@@ -1,8 +1,3 @@
-/* 
-NOTE: ChatGPT says this is the 'best practices' version of the 
-other Jenkinsfile, but I haven't tested to see if it actually works
-*/
-
 pipeline {
     agent {
         label 'AppServer' // Define a specific agent node label
