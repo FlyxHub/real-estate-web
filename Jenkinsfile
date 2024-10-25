@@ -9,7 +9,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'flyxdocker/car_web'
+        DOCKER_IMAGE = 'flyxdocker/real-estate-web'
         DOCKER_REGISTRY = 'https://registry.hub.docker.com'
         DOCKER_CREDENTIALS_ID = 'dockerhub-creds'
     }
